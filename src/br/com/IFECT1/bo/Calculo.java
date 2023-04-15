@@ -80,7 +80,7 @@ public class Calculo {
 		
 		totalano = ano * 365; 
 		
-		resultotal = totalmes + totalano;
+		resultotal = total + totalano;
 		
 		
 		

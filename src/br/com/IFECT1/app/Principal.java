@@ -12,21 +12,19 @@ public class Principal {
 		Scanner leia = new Scanner(System.in);
 		Calculo objeto = new Calculo();
 		
-		System.out.println("Informe o seu ano:");
-		objeto.ano = leia.nextInt();
-		System.out.println(objeto.ano);
-		
-		System.out.println("Informe o seu mes:");
-		objeto.mes = leia.nextInt();
-		System.out.println(objeto.mes);
-		
-		System.out.println("Informe o dia de nascimento:");
+		System.out.println("Informe seu dia de nascimento:");
 		objeto.dia = leia.nextInt();
 		System.out.println(objeto.dia);
 		
+		System.out.println("Informe o seu mes de nascimento:");
+		objeto.mes = leia.nextInt();
+		System.out.println(objeto.mes);
+		
+		System.out.println("Informe a sua idade:");
+		objeto.ano = leia.nextInt();
+		System.out.println(objeto.ano);
+		
 		objeto.calculo();
-		
-		
 		
 	}
 
